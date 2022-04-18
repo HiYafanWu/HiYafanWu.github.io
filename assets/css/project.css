@@ -1,0 +1,33 @@
+h1 {
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+section {
+	margin: 72px auto;
+}
+
+section.text-content {
+	margin-left: 210px;
+	margin-right: 210px;
+}
+
+@media (max-width: 991px) {
+    section.text-content {
+    	margin-left: 50px;
+		margin-right: 50px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		max-width: 90vw;
+	}
+    section.text-content {
+    	margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 575px) {
+}
