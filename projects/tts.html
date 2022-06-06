@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Text to Speach - Yafan Wu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="../assets/css/project.css" rel="stylesheet">
+    <link href="../assets/css/util.css" rel="stylesheet">
+</head>
+<style>
+</style>
+
+<body>
+    <div class="container">
+        <section class="text-content">
+            <h1>Bring Text to Speech feature in contextual usage for book listeners </h1>
+            <p>iReader is a TOP3 online reading platform in China where young adults can read novels and non-fiction
+                books, with 200 million active users per month. Reading and listening are core features for our users.
+            </p>
+            <p>Listening includes: TTS(Text to Speech) with machine- generated voices; audio books with authentic human
+                voices.</p>
+        </section>
+        <section class="text-center">
+            <img src="https://via.placeholder.com/1100x500.png" class="img-fluid" alt="...">
+        </section>
+        <section class="border text-content pt-4">
+            <div class="d-flex justify-content-evenly tts-project-desc flex-wrap">
+                <div class="mt-1 mb-3">
+                    <h2>team</h2>
+                    <p>Product designer</p>
+                    <p>Product manager</p>
+                    <p>Engineers</p>
+                    <p>Data anlyst</p>
+                    <p>Customer specialist</p>
+                </div>
+                <div class="mt-1 mb-3">
+                    <h2>my role</h2>
+                    <p>UX/UI design</p>
+                    <p>Product stategy</p>
+                    <p>User research</p>
+                    <p>Design ideation</p>
+                    <p>Design QA</p>
+                </div>
+                <div class="mt-1 mb-3">
+                    <h2>project status</h2>
+                    <p>Launched(2021/08)</p>
+                    <br>
+                    <h2>duration</h2>
+                    <p>2 months</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-content border p-4">
+            <h2>problem</h2>
+            <p class="text-emphasize">listeners only can have interactions with other page or tasks after they
+                quitting
+                TTS</p>
+            <br>
+            <h2>solution</h2>
+            <p class="text-emphasize">A new universal player and the full control page for TTS to support users
+                multitasking without quiting.
+            </p>
+            <br>
+            <h2>results</h2>
+            <ul>
+                <li>
+                    <strong class="md-number me-1">+3%</strong> TTS usage rate
+                </li>
+                <li>
+                    <strong class="md-number me-1">+4 MINS</strong> in averge TTS listening time
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="container">
+        <section class="text-content">
+            <h1>initial problem</h1>
+            <p class="text-emphasize">Low usage rate and listeners constantly quit and restart</p>
+            <p>As lead designer in the team, it was my responsibility to enhance user engagement and identify product
+                opportunities. We discovered the low usage rate for TTS and wired data pattern for click quit and start.
+                Also, the feedback we received from our users was they could not perform various actions while using TTS
+                and needed to constantly quit and restart. For example, adding bookmarks, choosing another chapter or
+                opting to go back to the home page to browse other books. In addition, we think the exsiting visual was
+                outdated and dark</p>
+            <br>
+            <div class="quote-with-figure">
+                <img src="https://via.placeholder.com/50x50.png" alt="user thumbnail">
+                <p>"I wanted to add a bookmark for a page in my favorite chapter while using TTS, but I can not do
+                    that, I want to listen while reading, so that I can better control my progress" (feedback from our
+                    user Xinyu)</p>
+            </div>
+        </section>
+        <section class="text-content">
+            <h2>Current TTS Process</h2>
+        </section>
+        <div class="text-center">
+            <img src="https://via.placeholder.com/1000x300.png" class="img-fluid" alt="...">
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="text-content">
+            <p class="text-emphasize">iReader will purchase more TTS resources in the furture.</p>
+            <p>In addition to giving listeners seamlessly experience, i believed iReader would benefit significantly
+                from
+                improving its TTS feature because 60% books contain TTS feature and company will purchase more in the
+                future. At the time, iReader need to catch up to retain users and attract new users to keep No.1 in the
+                market because users were rely on our book resources.</p>
+        </section>
+    </div>
+
+    <div class="through-out-container through-out-container-secondary">
+        <div class="container">
+            <section class="text-content">
+                <h2>hypothesis</h2>
+                <ol>
+                    <li class="text-emphasize">Uses need to connect other interactions when listening</li>
+                    <li class="text-emphasize">TTS control setting doesn't meets user mindset</li>
+                </ol>
+            </section>
+        </div>
+    </div>
+    <div class="through-out-container through-out-container-topic">
+        <div class="container">
+            <section class="text-content">
+                <h2>challenges</h2>
+                <p class="text-emphasize">How might we break the silo between TTS feature and reading tasks?</p>
+            </section>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="text-content">
+            <p class="text-emphasize">"Wait, is that a real problem?"</p>
+            <p>Research: Data tracking/ User feedback / Internal testing</p>
+        </section>
+    </div>
+
+    <div class="container mb-40">
+        <section class="text-content">
+            <h1>research</h1>
+        </section>
+    </div>
+    <div class="through-out-container through-out-container-topic">
+        <div class="container">
+            <section class="text-content">
+                <h2>WHY IMPROVING TTS</h2>
+                <div class="d-flex justify-content-between flex-wrap">
+                    <div class="mt-1 me-2">
+                        <p class="md-number">10%</p>
+                        <p>usage rate among all listeners</p>
+                    </div>
+                    <div class="mt-1 me-2">
+                        <p class="md-number">60%</p>
+                        <p>books support TTS feature</p>
+                    </div>
+                    <div class="mt-1">
+                        <p class="md-number">Higher</p>
+                        <p>retention rate </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="text-content">
+            <p>Retention rate is the north star of our company, and our project goal was to improve the usage rate of
+                TTS as
+                well as the total time spent on TTS.</p>
+
+            <p>Our data showed that a 1/3 of the users have listened the books (either TTS or audio books) but only 10%
+                for TTS,
+                and those users have a higher retention rate than the users who only read. Therefore, we decided to
+                prioritize
+                the TTS project as it directly impact company business goals and has large spaces for improvements.</p>
+        </section>
+
+        <section class="text-content">
+            <p class="text-emphasize">What suprise me from existing data is that...</p>
+        </section>
+        <div class="text-center">
+            <img src="https://via.placeholder.com/700x400.png" class="img-fluid" alt="...">
+        </div>
+
+        <section class="text-content">
+            <p class="text-emphasize">Only 6.6% users adjust timer/voice/speed and rarely use after they set up frist
+                time</p>
+            <p>We can clearly see the data of adjust the setttings decreased after the first time when users setting. We
+                should low priortized those setting features in the user flow.</p>
+        </section>
+
+        <section class="text-content">
+            <h2>USER FEEDBACK & INTERNAL TESTING</h2>
+            <p>I collected some user feedback from customer service department and discovered TTS was rated as #1 among
+                the negative experiences. Thus we conducted an internal testing to understand user's needs when using
+                TTS.</p>
+            <br>
+            <ul>
+                <li class="text-emphasize">They multitasked instead of just performing reading tasks</li>
+                <li class="text-emphasize">By tapping the screen, users intend to either control TTS mode or change
+                    chapters/explore app/add bookmark/make notes </li>
+                <li class="text-emphasize">UI was dark and outdated</li>
+            </ul>
+            <br>
+            <div class="quote-with-figure">
+                <img src="https://via.placeholder.com/50x50.png" class="" alt="...">
+                <p>"I needed to constantly quit and restart tts, really annoying" (feedback from our user ******3471)
+                </p>
+            </div>
+            <br>
+            <br>
+            <div class="quote-with-figure">
+                <img src="https://via.placeholder.com/50x50.png" class="" alt="...">
+                <p>"The TTS feature is really good but it can be improved by more flexible" (feedback from our user
+                    ******2943)</p>
+            </div>
+        </section>
+
+        <div class="text-center">
+            <img src="https://via.placeholder.com/500x300.png" class="img-fluid" alt="...">
+        </div>
+
+        <section class="text-content">
+            <p>Based on the data and the results of user testing, we concluded that allowing users change chapters, add
+                bookmarks or explore app without quitting TTS are the actual needs.</p>
+        </section>
+
+        <section class="text-content">
+            <h2>TIME AND TECHNICAL CHALLENGE</h2>
+            <p class="text-emphasize">We want to done this as quickly as possible, should i think about solve this
+                problem as easiest way or the long term goal?</p>
+        </section>
+    </div>
+
+    <div class="through-out-container through-out-container-topic">
+        <div class="container">
+            <section class="text-content">
+                <h2>PRODUCT DECISION</h2>
+                <p class="text-emphasize">Allow users exploring the app while listening will affect our project goal
+                    which is average time spending for TTS</p>
+            </section>
+        </div>
+    </div>
+
+    <div class="through-out-container through-out-container-default">
+        <div class="container">
+            <section class="text-content">
+                <h2>REFRAME DESIGN GOAL</h2>
+                <p class="text-emphasize">Improve the TTS feature to help users continue interact with other pages and
+                    tasks without quitting</p>
+            </section>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="text-content">
+            <h1>SUCCESSFUL METRICS</h1>
+            <p>We expected to see the following outcomes:</p>
+            <ol>
+                <li>Users will spend more time on audio (TTS, audio books)</li>
+                <li>More people will use TTS feature</li>
+                <li>Users who used TTS outside of reader/Total TTS Users > 50%</li>
+            </ol>
+        </section>
+    </div>
+
+
+
+
+
+
+
+    --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    <div class="container mb-40">
+        <section class="text-content">
+            <h1>CHALLENGES</h1>
+        </section>
+    </div>
+    <div class="through-out-container through-out-container-default">
+        <div class="container">
+            <section class="text-content">
+                <h2>CHALLENGE 1</h2>
+                <p class="text-emphasize">80% users fail to open the account as they think that only a Huaxia card to
+                    open the account can be used
+                </p>
+                <br><br>
+                <h2>CHALLENGE 2</h2>
+                <p class="text-emphasize">How to conduct user research with no resources?
+                </p>
+            </section>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="text-content">
+            <h1>approaches</h1>
+            <h2>UNDERSTAND EXISTING PROBLEMS</h2>
+        </section>
+
+        <section class="text-content">
+            <ul>
+                <li class="text-emphasize">The location, explanation and necessity of bank logo</li>
+                <li class="text-emphasize">Not provide bank options</li>
+                <li class="text-emphasize">Open account tasks were not clearly dispalyed and lack of guidance</li>
+            </ul>
+        </section>
+        <section class="text-content">
+            <h2>BUILD USER RESEARCH TEAM</h2>
+            <p>Account opening is an essential step for investment. We had sufficient time to conduct qualitative
+                research to establish the issues affecting the existing account opening process and we chose to perform
+                usablity testing.</p>
+            <p>I set up the user goal is that: Is it clear about the flow from open account to purchase product?
+                Intruduce team members, goal and process. Provide users tasks, observe the actions users make and record
+                any questions or suggestions user give
+            </p>
+        </section>
+
+        <section>
+            <div class="row justify-content-center text-center gx-4">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div>
+                        <img src="https://via.placeholder.com/256x346.png" class="img-fluid" alt="...">
+                        <p class="my-4">Set up goal</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <img src="https://via.placeholder.com/256x346.png" class="img-fluid" alt="...">
+                    <p class="my-4">Define user tasks</p>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <img src="https://via.placeholder.com/256x346.png" class="img-fluid" alt="...">
+                    <p class="my-4 text-left">Observe users</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-content">
+            <p>We invited 5 users from our target user group who have less, none and more Peer to peer financial
+                investment background to explore different insights based on different financial investment education
+                knowledge
+            </p>
+        </section>
+
+        <section class="text-content">
+            <div class="text-start">
+                <img src="https://via.placeholder.com/380x185.png" class="img-fluid" alt="...">
+            </div>
+            <br>
+            <p>We discovered more problems related to the process of purchasing products, the product detail page, ID
+                identification. However, we only focused on the account opening page and as our direct goal was to solve
+                the account opening problem
+            </p>
+        </section>
+
+        <section class="text-content">
+            <h3>Insights</h3>
+            <ul>
+                <li class="text-emphasize">Most users only consider Huaxia card to open the account(4/5)</li>
+                <li class="text-emphasize">User only consider Huaxia card as the large bank logo at top from frist sight
+                </li>
+                <li class="text-emphasize">Users don't know there are choices for other bank cards</li>
+                <li class="text-emphasize">User hardly locate the frist step and next step</li>
+                <li class="text-emphasize">Users confused about the page titled “open bank manage account’ and do not
+                    know
+                    what does that mean</li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="container mb-40">
+        <section class="text-content">
+            <h1>design process</h1>
+        </section>
+    </div>
+    <div class="through-out-container-default">
+        <div class="container">
+            <section class="text-content">
+                <p class="text-emphasize">How might we reduce the confusion about the Huaxia bank card?
+                </p>
+            </section>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="text-content">
+            <p class="text-emphasize">What if we change OR delete the previous bank logo location?
+            </p>
+            <p>we changed the logo location and simplized the content to see if users were still confused about the card
+                issue (as it's the easiest way to test it)</p>
+        </section>
+        <section>
+            <div class="text-center">
+                <img src="https://via.placeholder.com/500x400.png" class="img-fluid" alt="...">
+            </div>
+        </section>
+        <section class="text-content">
+            <p>In order to control variables, we only changed one element, so we did internal testing and the feedback
+                was positive and users no longer thought that they could only choose the Huaxia card. We shipped quickly
+                because this page was easy to develop. There were no negative results for account opening rate and
+                customer feedback, so we decided to move on to the next step and consider other solutions</p>
+        </section>
+        <section class="text-content">
+            <p class="text-emphasize">What if we create a comprehensive list of banks?
+            </p>
+            <br>
+            <h3>Option A</h3>
+            <p>To let users realize the choice of debit bank card, we using additional line named bank " view support
+                banks", so that users know they have choices</p>
+            <br>
+            <div class="text-center">
+                <img src="https://via.placeholder.com/600x500.png" class="img-fluid" alt="...">
+            </div>
+        </section>
+        <section class="text-content">
+            <h3>Option B</h3>
+            <p>To emphaize support mutiple bank, highlight different color as text chain link "view support 18 banks"and
+                easy to notice that is clickable, also give users the information about 18 banks that can support</p>
+            <br>
+            <div class="text-center">
+                <img src="https://via.placeholder.com/600x900.png" class="img-fluid" alt="...">
+            </div>
+        </section>
+        <section class="text-content">
+            <h3>Option C</h3>
+            <p>Only add additional hint as readable information below the inputing box, like support Gongshang, Nongye,
+                Jianshe 16 banks</p>
+            <br>
+            <div class="text-center">
+                <img src="https://via.placeholder.com/300x500.png" class="img-fluid" alt="...">
+            </div>
+        </section>
+    </div>
+
+    <div class="through-out-container-default">
+        <div class="container">
+            <section class="text-content">
+                <p class="text-emphasize">How might we provide open account tasks clearly and guide users to complete?
+                </p>
+            </section>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="text-content">
+            <p class="text-emphasize">What if we seperate two parts and have titles on it?
+            </p>
+            <p>Seperate into two tasks and add on title, the frist is link to you debit card, second is set your
+                password </p>
+        </section>
+        <section class="text-content">
+            <p class="text-emphasize">What if we seperate two parts and have titles on it?
+            </p>
+            <p>Seperate into two tasks and add on title, the frist is link to you debit card, second is set your
+                password </p>
+        </section>
+        <section class="text-center">
+            <img src="https://via.placeholder.com/750x680.png" class="img-fluid" alt="...">
+        </section>
+    </div>
+
+    <div class="through-out-container-default">
+        <div class="container">
+            <section class="text-content">
+                <p class="text-emphasize">How might we explain more about the title?
+                </p>
+            </section>
+        </div>
+    </div>
+    <div class="container">
+        <section class="text-content">
+            <p class="text-emphasize">What if we provide information to explain what does open bank manage account mean
+                before users start?
+            </p>
+            <p>Provide a entry point of the explation about what is bank manage account mean on the top of this page
+            </p>
+        </section>
+        <section class="text-center">
+            <img src="https://via.placeholder.com/750x680.png" class="img-fluid" alt="...">
+        </section>
+    </div>
+
+    <div class="container">
+        <section class="text-content">
+            <h1>results</h1>
+            <p class="text-emphasize">Account opening</p>
+            <p class="big-number">+5.4%</h1>
+            <p>Andriod improved 5.82%, ios improved 3.96%, whole platform 5.4%</p>
+        </section>
+        <section class="text-content">
+            <p class="text-emphasize">Whole prodct trading</p>
+            <p class="big-number">+1.1%</h1>
+            <p>After we redesigned the account opening page from 8.20, observe one week data and concluded that the
+                purchase rate of test group is 1.1% higher than control group, Andriod increased 1%, iOS increased 0.7%
+            </p>
+        </section>
+        <section class="text-content">
+            <p class="text-emphasize">Platform migration</p>
+            <p>Migrate all the design to M platform on the mobile device</p>
+        </section>
+        <section class="text-content">
+            <p class="text-emphasize">User reasearch team</p>
+            <p>Lead and build a new user research team
+            </p>
+        </section>
+    </div>
+</body>
+
+</html>
