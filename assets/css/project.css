@@ -60,9 +60,19 @@ section.text-content {
 	color: black;
 }
 
+.through-out-container-green {
+	background-color: #E5EDEE;
+	color: black;
+}
+
 .text-emphasize {
 	font-size: 22px;
 	font-weight: 600;
+}
+
+.text-light-emphasize {
+	font-size: 22px;
+	font-weight: 500;
 }
 
 h1 {
@@ -109,6 +119,12 @@ ul > li, ol > li {
 	font-size: 30px;
 	margin: 0.5rem 0;
 	font-weight: 600;
+}
+
+.sm-number {
+	font-size: 20px;
+	margin: 0.3rem 0;
+	font-weight: 500;
 }
 
 .tts-project-desc > div {
