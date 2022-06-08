@@ -146,3 +146,8 @@ ul > li, ol > li {
 	border-radius: 50%;
 	margin-right: 20px;
 }
+
+.project-footer {
+	/* margin: 30px auto; */
+	height: 30px;
+}
