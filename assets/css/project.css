@@ -148,6 +148,11 @@ ul > li, ol > li {
 }
 
 .project-footer {
-	/* margin: 30px auto; */
 	height: 30px;
+	margin-top: 180px;
+	font-size: 18px;;
+}
+
+.project-footer a:hover {
+ 	color: #007bff;
 }
