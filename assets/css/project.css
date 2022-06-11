@@ -12,8 +12,8 @@ section {
 }
 
 section.text-content {
-	margin-left: 210px;
-	margin-right: 210px;
+	margin-left: 130px;
+	margin-right: 130px;
 }
 
 @media (max-width: 991px) {
