@@ -134,7 +134,7 @@ ul > li, ol > li {
 .quote-with-figure {
     display: flex;
     align-items: center;
-    padding: 26px 16px;
+    padding: 26px;
     box-shadow: 3px 3px 10px 3px rgb(0 0 0 / 10%);
 }
 
