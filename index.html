@@ -10,195 +10,8 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
 		rel="stylesheet">
-	<style>
-		body {
-			font-family: 'Source Sans Pro', sans-serif !important;
-		}
-
-		.slogan {
-			margin-top: 30px;
-			vertical-align: bottom;
-		}
-
-		.slogan-primary {
-			font-size: 54px;
-			margin-bottom: 50px;
-		}
-
-		.slogan-primary>img {
-			width: 150px;
-		}
-
-		.slogan-secondary {
-			font-size: 36px;
-		}
-
-		.spacer {
-			height: 140px;
-		}
-
-		@media (max-width: 991px) {
-			.slogan-primary {
-				font-size: 40px;
-				margin-bottom: 30px;
-			}
-
-			.slogan-primary>img {
-				width: 110px;
-			}
-
-			.slogan-secondary {
-				font-size: 26px;
-			}
-
-			.spacer {
-				height: 110px;
-			}
-		}
-
-		@media (max-width: 767px) {
-			.slogan-primary {
-				font-size: 30px;
-				margin-bottom: 20px;
-			}
-
-			.slogan-primary>img {
-				width: 90px;
-			}
-
-			.slogan-secondary {
-				font-size: 20px;
-			}
-
-			.spacer {
-				height: 85px;
-			}
-		}
-
-		@media (max-width: 575px) {
-			.slogan-primary {
-				font-size: 30px;
-				margin-bottom: 10px;
-			}
-
-			.slogan-primary>img {
-				width: 70px;
-			}
-
-			.slogan-secondary {
-				font-size: 18x;
-			}
-		}
-	</style>
-
-	<!-- Project Card -->
-	<style type="text/css">
-		.flex-row {
-			display: flex;
-			justify-content: center;
-			flex-wrap: wrap;
-		}
-
-		.project-card-wrapper {
-			width: calc(50% - 160px);
-			margin: 40px;
-			min-width: 300px;
-		}
-
-		.project-card {
-			position: relative;
-			top: 50%;
-			left: 50%;
-			width: 100%;
-			height: 400px;
-			transform: translate(-50%, -50%);
-			border-radius: 6px;
-			overflow: hidden;
-			cursor: pointer;
-			transition: 0.3s;
-		}
-
-		@media (min-width: 1200px) {
-			.project-card {
-				height: 450px;
-			}
-		}
-
-		@media (min-width: 1400px) {
-			.project-card {
-				height: 500px;
-			}
-		}
-
-		@media (min-width: 1600px) {
-			.project-card {
-				height: 600px;
-			}
-		}
-
-		@media (max-width: 991px) {
-			.project-card {
-				height: 350px;
-			}
-		}
-
-		.project-card:hover img {
-			opacity: 0.4;
-			transition: .3s;
-		}
-
-		.project-card-image {
-			position: absolute;
-			top: 0px;
-			left: 0px;
-			width: 100%;
-			height: 100%;
-			z-index: 2;
-			background-color: #f9f8ff;
-			transition: .3s;
-		}
-
-		.project-card-image>img {
-			width: 100%;
-			height: 100%;
-		}
-
-		.project-card:hover .project-card-image {
-			transform: translateY(-100px);
-			transition: all .6s;
-		}
-
-		.project-details {
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			background: #fff;
-			width: 100%;
-			height: 120px;
-			z-index: 1;
-			padding: 10px;
-		}
-
-		.project-title {
-			margin: 30px 0;
-			padding: 0;
-			text-align: center;
-		}
-
-		.project-desc {
-			font-size: 1rem;
-			line-height: 2.5rem;
-			color: #333;
-			font-weight: 300;
-		}
-	</style>
-
-	<style type="text/css">
-		.footer {
-			margin: 40px auto;
-			text-align: center;
-		}
-	</style>
+	<link href="./assets/css/index.css" rel="stylesheet">
+	<!-- <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script> -->
 
 </head>
 
@@ -295,7 +108,20 @@
 					</div>
 				</div>
 			</div>
-			<div class="project-card-wrapper"></div>
+			<div class="project-card-wrapper" onclick="window.open('./projects/visual.html', '_self');">
+				<div class="project-card">
+					<div class="project-card-image">
+						<img src="./assets/img/iqianjin.svg" alt="visual design">
+					</div>
+
+					<div class="project-details">
+						<h2 class="project-title">Visual Design
+							<br>
+							<span class="project-desc">???????????????</span>
+						</h2>
+					</div>
+				</div>
+			</div>
 		</div>
 
 	</div>
