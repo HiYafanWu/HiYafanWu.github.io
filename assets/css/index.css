@@ -148,7 +148,7 @@ body {
 }
 
 .project-card:hover .project-card-image {
-    transform: translateY(-100px);
+    transform: translateY(-130px);
     transition: all .6s;
 }
 
