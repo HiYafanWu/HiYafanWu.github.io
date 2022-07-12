@@ -140,11 +140,29 @@ body {
     z-index: 2;
     background-color: #f9f8ff;
     transition: .3s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.project-card-image>img {
-    width: 100%;
-    height: 100%;
+.project-card-image-tts {
+    background-image: url("../img/home/tts.svg");
+}
+
+.project-card-image-search {
+    background-image: url("../img/home/search.svg");
+}
+
+.project-card-image-kiosk {
+    background-image: url("../img/home/kiosk.svg");    
+}
+
+.project-card-image-account {
+    background-image: url("../img/home/account.svg");
+}
+
+.project-card-image-visual {
+    background-image: url("../img/home/visual.svg");    
 }
 
 .project-card:hover .project-card-image {
